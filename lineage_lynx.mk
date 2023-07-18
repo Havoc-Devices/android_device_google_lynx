@@ -14,7 +14,7 @@ $(call inherit-product, device/google/gs201/lineage_common.mk)
 $(call inherit-product, device/google/lynx/device-lineage.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 7a
 PRODUCT_NAME := lineage_lynx
 
@@ -27,5 +27,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lynx-user 13 TQ3A.230901.001 10750268 release-keys"
 
 BUILD_FINGERPRINT := google/lynx/lynx:13/TQ3A.230901.001/10750268:user/release-keys
+
+HAVOC_BUILD_TYPE := Official
 
 $(call inherit-product, vendor/google/lynx/lynx-vendor.mk)

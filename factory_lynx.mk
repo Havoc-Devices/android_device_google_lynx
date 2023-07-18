@@ -23,7 +23,7 @@ include device/google/lynx/audio/lynx/factory-audio-tables.mk
 PRODUCT_NAME := factory_lynx
 PRODUCT_DEVICE := lynx
 PRODUCT_MODEL := Factory build on Lynx
-PRODUCT_BRAND := Android
+PRODUCT_BRAND := Google
 PRODUCT_MANUFACTURER := Google
 
 # default BDADDR for EVB only

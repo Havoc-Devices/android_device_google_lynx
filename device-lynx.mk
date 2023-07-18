@@ -280,3 +280,9 @@ PRODUCT_PACKAGES += \
     SettingsOverlayGHL1X \
     SettingsOverlayGWKK3
 
+# Havoc-OS
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.havoc.device.name="Pixel 7a" \
+    ro.havoc.group.url=https://t.me/+4re20edBBcE2YzNl \
+    ro.havoc.maintainer="Anushek Prasal" \
+    ro.havoc.maintainer.username=SKULSHADY \
